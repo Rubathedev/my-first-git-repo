@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my first git repo</title>
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="form_box">
+        <form action="submit_form.php">
+            <label for="name">name</label>
+            <input type="text" id="name" placholder="Jone Whick" required>
+            <label for="email">Email</label>
+            <input type="email" name="" id="email" required>
+            <label for="phone">Num:</label>
+            <input type="number" name="" id="phone" required>
+            <label for="password">Create Password</label>
+            <input type="password" id="create-password">
+            <label for="confirm-password">Rewrite Password</label>
+            <input type="password" id="confirm-password">
+
+            <input type="submit" value="Submit">
+        </form>
+        <p>if you alrady have a account then <a href="login">login</a> on your account</p>
+    </div>
 </body>
+
 </html>
